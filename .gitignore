@@ -1,0 +1,15 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Secrets — never commit the API key (required by CANDIDATE_BRIEF.md)
+.env
+.env.*
+!.env.example
+
+# Archives
+*.zip
+
+# Local scratch / verification logs
+_*.txt
+_smoke.py

@@ -1,0 +1,951 @@
+{
+  "budget": "1x",
+  "calls": {},
+  "items": {
+    "B2-000": {
+      "id": "B2-000",
+      "budget": 1,
+      "failed": [
+        9,
+        11,
+        15,
+        19
+      ],
+      "n_solutions": 0,
+      "mus": [
+        12,
+        13,
+        16
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-001": {
+      "id": "B2-001",
+      "budget": 1,
+      "failed": [
+        5,
+        8,
+        13
+      ],
+      "n_solutions": 0,
+      "mus": [
+        7,
+        17
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-002": {
+      "id": "B2-002",
+      "budget": 1,
+      "failed": [
+        1,
+        2,
+        6,
+        9,
+        17
+      ],
+      "n_solutions": 0,
+      "mus": [
+        16
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-003": {
+      "id": "B2-003",
+      "budget": 1,
+      "failed": [
+        3,
+        6,
+        9,
+        10,
+        13,
+        14,
+        16,
+        18
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-004": {
+      "id": "B2-004",
+      "budget": 1,
+      "failed": [
+        1,
+        2,
+        7,
+        8,
+        16
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-005": {
+      "id": "B2-005",
+      "budget": 1,
+      "failed": [
+        0,
+        2,
+        10,
+        16
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-006": {
+      "id": "B2-006",
+      "budget": 1,
+      "failed": [
+        2,
+        10,
+        11,
+        12,
+        13,
+        14,
+        18
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-007": {
+      "id": "B2-007",
+      "budget": 1,
+      "failed": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        18
+      ],
+      "n_solutions": 0,
+      "mus": [
+        15
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-008": {
+      "id": "B2-008",
+      "budget": 1,
+      "failed": [
+        0,
+        4,
+        5,
+        8,
+        12,
+        13,
+        15,
+        17
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-009": {
+      "id": "B2-009",
+      "budget": 1,
+      "failed": [
+        3,
+        8,
+        10,
+        11,
+        13
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-010": {
+      "id": "B2-010",
+      "budget": 1,
+      "failed": [
+        1,
+        10
+      ],
+      "n_solutions": 0,
+      "mus": [
+        7,
+        11
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-011": {
+      "id": "B2-011",
+      "budget": 1,
+      "failed": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        15,
+        16
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-012": {
+      "id": "B2-012",
+      "budget": 1,
+      "failed": [
+        10,
+        12,
+        13,
+        14
+      ],
+      "n_solutions": 0,
+      "mus": [
+        17
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-013": {
+      "id": "B2-013",
+      "budget": 1,
+      "failed": [
+        7,
+        9,
+        10,
+        14,
+        18
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-014": {
+      "id": "B2-014",
+      "budget": 1,
+      "failed": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        16
+      ],
+      "n_solutions": 0,
+      "mus": [
+        18
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-015": {
+      "id": "B2-015",
+      "budget": 1,
+      "failed": [
+        0,
+        9,
+        12,
+        15
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-016": {
+      "id": "B2-016",
+      "budget": 1,
+      "failed": [
+        0,
+        3,
+        5,
+        10,
+        13,
+        17
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-017": {
+      "id": "B2-017",
+      "budget": 1,
+      "failed": [
+        3,
+        6,
+        7,
+        8,
+        19
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-018": {
+      "id": "B2-018",
+      "budget": 1,
+      "failed": [
+        0,
+        1,
+        2,
+        8,
+        13,
+        14,
+        17,
+        18
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-019": {
+      "id": "B2-019",
+      "budget": 1,
+      "failed": [
+        3,
+        10,
+        11,
+        13,
+        14,
+        16
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-020": {
+      "id": "B2-020",
+      "budget": 1,
+      "failed": [
+        5,
+        11,
+        12,
+        13,
+        17
+      ],
+      "n_solutions": 0,
+      "mus": [
+        3
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-021": {
+      "id": "B2-021",
+      "budget": 1,
+      "failed": [
+        3,
+        4,
+        9,
+        10,
+        11,
+        12,
+        13,
+        16
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-022": {
+      "id": "B2-022",
+      "budget": 1,
+      "failed": [
+        5,
+        12,
+        13,
+        16,
+        18
+      ],
+      "n_solutions": 0,
+      "mus": [
+        10
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-023": {
+      "id": "B2-023",
+      "budget": 1,
+      "failed": [
+        1,
+        3,
+        12,
+        15,
+        17
+      ],
+      "n_solutions": 0,
+      "mus": [
+        9
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-024": {
+      "id": "B2-024",
+      "budget": 1,
+      "failed": [
+        0,
+        2,
+        8,
+        14,
+        15,
+        16,
+        18
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-025": {
+      "id": "B2-025",
+      "budget": 1,
+      "failed": [
+        1,
+        3,
+        4,
+        6,
+        13,
+        15,
+        18
+      ],
+      "n_solutions": 0,
+      "mus": [
+        16
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-026": {
+      "id": "B2-026",
+      "budget": 1,
+      "failed": [
+        0,
+        7,
+        14,
+        16,
+        17
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-027": {
+      "id": "B2-027",
+      "budget": 1,
+      "failed": [
+        2,
+        5,
+        6,
+        15,
+        17
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-028": {
+      "id": "B2-028",
+      "budget": 1,
+      "failed": [
+        1,
+        3,
+        11,
+        16
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-029": {
+      "id": "B2-029",
+      "budget": 1,
+      "failed": [
+        1,
+        2,
+        5,
+        8,
+        9
+      ],
+      "n_solutions": 0,
+      "mus": [
+        0
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-030": {
+      "id": "B2-030",
+      "budget": 1,
+      "failed": [
+        1,
+        4,
+        5,
+        8,
+        12,
+        13,
+        16
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-031": {
+      "id": "B2-031",
+      "budget": 1,
+      "failed": [
+        2,
+        5,
+        6,
+        7,
+        10,
+        13,
+        19
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-032": {
+      "id": "B2-032",
+      "budget": 1,
+      "failed": [
+        2,
+        11,
+        12,
+        14
+      ],
+      "n_solutions": 0,
+      "mus": [
+        4,
+        13
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-033": {
+      "id": "B2-033",
+      "budget": 1,
+      "failed": [
+        1,
+        6,
+        7,
+        11,
+        13,
+        16,
+        17
+      ],
+      "n_solutions": 0,
+      "mus": [
+        10
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-034": {
+      "id": "B2-034",
+      "budget": 1,
+      "failed": [
+        6,
+        8,
+        9,
+        16
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-035": {
+      "id": "B2-035",
+      "budget": 1,
+      "failed": [
+        6,
+        10,
+        13,
+        16,
+        17
+      ],
+      "n_solutions": 0,
+      "mus": [
+        11,
+        19
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-036": {
+      "id": "B2-036",
+      "budget": 1,
+      "failed": [
+        1,
+        10,
+        11,
+        12,
+        16
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-037": {
+      "id": "B2-037",
+      "budget": 1,
+      "failed": [
+        9,
+        11,
+        13
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-038": {
+      "id": "B2-038",
+      "budget": 1,
+      "failed": [
+        2,
+        6,
+        13,
+        16
+      ],
+      "n_solutions": 0,
+      "mus": [
+        14
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-039": {
+      "id": "B2-039",
+      "budget": 1,
+      "failed": [
+        7,
+        11,
+        12,
+        14,
+        16,
+        17,
+        19
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-040": {
+      "id": "B2-040",
+      "budget": 1,
+      "failed": [
+        1,
+        6,
+        8,
+        9,
+        10,
+        13,
+        15,
+        17,
+        18
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-041": {
+      "id": "B2-041",
+      "budget": 1,
+      "failed": [
+        3,
+        6,
+        7,
+        8,
+        10,
+        17
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-042": {
+      "id": "B2-042",
+      "budget": 1,
+      "failed": [
+        5,
+        11,
+        14
+      ],
+      "n_solutions": 0,
+      "mus": [
+        13,
+        16
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-043": {
+      "id": "B2-043",
+      "budget": 1,
+      "failed": [
+        2,
+        5,
+        6,
+        7,
+        10,
+        13,
+        17,
+        18
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-044": {
+      "id": "B2-044",
+      "budget": 1,
+      "failed": [
+        1,
+        5,
+        10,
+        13,
+        17,
+        19
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-045": {
+      "id": "B2-045",
+      "budget": 1,
+      "failed": [
+        3,
+        7
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-046": {
+      "id": "B2-046",
+      "budget": 1,
+      "failed": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        15
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-047": {
+      "id": "B2-047",
+      "budget": 1,
+      "failed": [
+        3,
+        5,
+        7,
+        11
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-048": {
+      "id": "B2-048",
+      "budget": 1,
+      "failed": [
+        0,
+        5,
+        12,
+        13,
+        17,
+        20
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-049": {
+      "id": "B2-049",
+      "budget": 1,
+      "failed": [
+        3,
+        10,
+        16,
+        17
+      ],
+      "n_solutions": 0,
+      "mus": [
+        11,
+        18
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-050": {
+      "id": "B2-050",
+      "budget": 1,
+      "failed": [
+        2,
+        5,
+        9,
+        13,
+        15,
+        17
+      ],
+      "n_solutions": 0,
+      "mus": [
+        10,
+        16
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-051": {
+      "id": "B2-051",
+      "budget": 1,
+      "failed": [
+        3,
+        10,
+        11,
+        13,
+        14,
+        15,
+        18
+      ],
+      "n_solutions": 0,
+      "mus": [
+        2
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-052": {
+      "id": "B2-052",
+      "budget": 1,
+      "failed": [
+        3,
+        7,
+        11,
+        13,
+        15,
+        16
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-053": {
+      "id": "B2-053",
+      "budget": 1,
+      "failed": [
+        14,
+        15
+      ],
+      "n_solutions": 0,
+      "mus": [
+        17
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-054": {
+      "id": "B2-054",
+      "budget": 1,
+      "failed": [
+        0,
+        4,
+        8,
+        11,
+        12,
+        13,
+        17
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-055": {
+      "id": "B2-055",
+      "budget": 1,
+      "failed": [
+        2,
+        6,
+        11,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-056": {
+      "id": "B2-056",
+      "budget": 1,
+      "failed": [
+        4,
+        5,
+        6,
+        8,
+        10,
+        16
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-057": {
+      "id": "B2-057",
+      "budget": 1,
+      "failed": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        12,
+        18
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-058": {
+      "id": "B2-058",
+      "budget": 1,
+      "failed": [
+        0,
+        4,
+        5,
+        11,
+        13,
+        17
+      ],
+      "n_solutions": 6,
+      "mode": "offline_symbolic",
+      "calls": 0
+    },
+    "B2-059": {
+      "id": "B2-059",
+      "budget": 1,
+      "failed": [
+        5,
+        9,
+        11,
+        18
+      ],
+      "n_solutions": 0,
+      "mus": [
+        16
+      ],
+      "mode": "offline_symbolic",
+      "calls": 0
+    }
+  }
+}

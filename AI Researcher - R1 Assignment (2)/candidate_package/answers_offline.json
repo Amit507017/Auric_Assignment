@@ -1,0 +1,3373 @@
+{
+  "B2-000": {
+    "case": "inconsistent",
+    "conflicts": [
+      "Meera has not been put on packing.",
+      "Going off the roster, Meera has not been put on intake.",
+      "Calibration is covered by someone other than Meera."
+    ]
+  },
+  "B2-001": {
+    "case": "inconsistent",
+    "conflicts": [
+      "Tomas is on intake.",
+      "Noted twice in the handover: As far as I know, the calibration station is covered earlier in the day than Tomas's block."
+    ]
+  },
+  "B2-002": {
+    "case": "inconsistent",
+    "conflicts": [
+      "The calibration station is covered earlier in the day than Priya's block."
+    ]
+  },
+  "B2-003": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Ingrid": {
+          "block": "09:00"
+        },
+        "Tomas": {
+          "block": "11:00"
+        },
+        "Meera": {
+          "block": "13:00",
+          "station": "calibration"
+        },
+        "Nadia": {
+          "block": "15:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Ingrid": {
+          "block": "09:00"
+        },
+        "Tomas": {
+          "block": "11:00"
+        },
+        "Meera": {
+          "block": "13:00",
+          "station": "calibration"
+        },
+        "Nadia": {
+          "block": "15:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Ingrid": {
+          "block": "09:00"
+        },
+        "Tomas": {
+          "block": "11:00"
+        },
+        "Meera": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Ingrid": {
+          "block": "09:00"
+        },
+        "Tomas": {
+          "block": "11:00"
+        },
+        "Meera": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Nadia": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      }
+    ]
+  },
+  "B2-004": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Ingrid": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "09:00"
+        },
+        "Rohan": {
+          "block": "11:00"
+        },
+        "Samuel": {
+          "block": "13:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Ingrid": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "09:00"
+        },
+        "Rohan": {
+          "block": "13:00"
+        },
+        "Samuel": {
+          "block": "11:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Ingrid": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Nadia": {
+          "block": "09:00"
+        },
+        "Rohan": {
+          "block": "11:00"
+        },
+        "Samuel": {
+          "block": "13:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Ingrid": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Nadia": {
+          "block": "09:00"
+        },
+        "Rohan": {
+          "block": "13:00"
+        },
+        "Samuel": {
+          "block": "11:00",
+          "station": "intake"
+        }
+      }
+    ]
+  },
+  "B2-005": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Daniel": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Nadia": {
+          "block": "11:00"
+        },
+        "Lukas": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Tomas": {
+          "block": "13:00"
+        }
+      },
+      {
+        "Daniel": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Nadia": {
+          "block": "11:00"
+        },
+        "Lukas": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Tomas": {
+          "block": "09:00"
+        }
+      },
+      {
+        "Daniel": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Nadia": {
+          "block": "13:00"
+        },
+        "Lukas": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Tomas": {
+          "block": "11:00"
+        }
+      },
+      {
+        "Daniel": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Nadia": {
+          "block": "13:00"
+        },
+        "Lukas": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Tomas": {
+          "block": "09:00"
+        }
+      }
+    ]
+  },
+  "B2-006": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Daniel": {
+          "block": "07:00"
+        },
+        "Priya": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Tomas": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "13:00"
+        },
+        "Samuel": {
+          "block": "15:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Daniel": {
+          "block": "07:00"
+        },
+        "Priya": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Tomas": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "13:00"
+        },
+        "Samuel": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Daniel": {
+          "block": "07:00"
+        },
+        "Priya": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Tomas": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "15:00"
+        },
+        "Samuel": {
+          "block": "13:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Daniel": {
+          "block": "07:00"
+        },
+        "Priya": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Tomas": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "15:00"
+        },
+        "Samuel": {
+          "block": "13:00",
+          "station": "calibration"
+        }
+      }
+    ]
+  },
+  "B2-007": {
+    "case": "inconsistent",
+    "conflicts": [
+      "The intake station is covered earlier in the day than Tomas's block."
+    ]
+  },
+  "B2-008": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "09:00"
+        },
+        "Rohan": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Ingrid": {
+          "block": "13:00"
+        },
+        "Ayesha": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Nadia": {
+          "block": "09:00"
+        },
+        "Rohan": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Ingrid": {
+          "block": "13:00"
+        },
+        "Ayesha": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Nadia": {
+          "block": "09:00"
+        },
+        "Rohan": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Ingrid": {
+          "block": "13:00"
+        },
+        "Ayesha": {
+          "block": "15:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "09:00"
+        },
+        "Rohan": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Ingrid": {
+          "block": "13:00"
+        },
+        "Ayesha": {
+          "block": "15:00",
+          "station": "packing"
+        }
+      }
+    ]
+  },
+  "B2-009": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Daniel": {
+          "block": "07:00"
+        },
+        "Meera": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Rohan": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Priya": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Ingrid": {
+          "block": "13:00"
+        }
+      },
+      {
+        "Daniel": {
+          "block": "07:00"
+        },
+        "Meera": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Rohan": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Ingrid": {
+          "block": "13:00"
+        }
+      },
+      {
+        "Daniel": {
+          "block": "07:00"
+        },
+        "Meera": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Rohan": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Priya": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Ingrid": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Daniel": {
+          "block": "07:00"
+        },
+        "Meera": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Rohan": {
+          "block": "13:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Ingrid": {
+          "block": "15:00"
+        }
+      }
+    ]
+  },
+  "B2-010": {
+    "case": "inconsistent",
+    "conflicts": [
+      "Noted twice in the handover: Ingrid is not assigned to calibration.",
+      "Calibration is covered before Ingrid comes on."
+    ]
+  },
+  "B2-011": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Tomas": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Meera": {
+          "block": "09:00"
+        },
+        "Daniel": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Ayesha": {
+          "block": "13:00",
+          "station": "calibration"
+        },
+        "Nadia": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Tomas": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Meera": {
+          "block": "09:00"
+        },
+        "Daniel": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Ayesha": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Nadia": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Tomas": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Meera": {
+          "block": "09:00"
+        },
+        "Daniel": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Ayesha": {
+          "block": "15:00",
+          "station": "calibration"
+        },
+        "Nadia": {
+          "block": "13:00"
+        }
+      },
+      {
+        "Tomas": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Meera": {
+          "block": "09:00"
+        },
+        "Daniel": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Ayesha": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Nadia": {
+          "block": "13:00"
+        }
+      }
+    ]
+  },
+  "B2-012": {
+    "case": "inconsistent",
+    "conflicts": [
+      "This came up more than once, so: I'm fairly sure Nadia is on later than whoever has calibration."
+    ]
+  },
+  "B2-013": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Tomas": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Ayesha": {
+          "block": "09:00"
+        },
+        "Rohan": {
+          "block": "11:00"
+        },
+        "Daniel": {
+          "block": "15:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Tomas": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Ayesha": {
+          "block": "09:00"
+        },
+        "Rohan": {
+          "block": "13:00"
+        },
+        "Daniel": {
+          "block": "15:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Tomas": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Ayesha": {
+          "block": "11:00"
+        },
+        "Rohan": {
+          "block": "09:00"
+        },
+        "Daniel": {
+          "block": "15:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Tomas": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Ayesha": {
+          "block": "13:00"
+        },
+        "Rohan": {
+          "block": "09:00"
+        },
+        "Daniel": {
+          "block": "15:00",
+          "station": "packing"
+        }
+      }
+    ]
+  },
+  "B2-014": {
+    "case": "inconsistent",
+    "conflicts": [
+      "Noted twice in the handover: Intake is covered before Ayesha comes on."
+    ]
+  },
+  "B2-015": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Samuel": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Lukas": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Daniel": {
+          "block": "11:00"
+        },
+        "Priya": {
+          "block": "15:00"
+        },
+        "Meera": {
+          "block": "13:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Samuel": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Lukas": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Daniel": {
+          "block": "11:00"
+        },
+        "Priya": {
+          "block": "13:00"
+        },
+        "Meera": {
+          "block": "15:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Samuel": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Lukas": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Daniel": {
+          "block": "11:00"
+        },
+        "Priya": {
+          "block": "15:00"
+        },
+        "Meera": {
+          "block": "13:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Samuel": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Lukas": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Daniel": {
+          "block": "11:00"
+        },
+        "Priya": {
+          "block": "13:00"
+        },
+        "Meera": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      }
+    ]
+  },
+  "B2-016": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Tomas": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Ayesha": {
+          "block": "07:00"
+        },
+        "Daniel": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Lukas": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Tomas": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Ayesha": {
+          "block": "07:00"
+        },
+        "Daniel": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Lukas": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Nadia": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Tomas": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Ayesha": {
+          "block": "07:00"
+        },
+        "Daniel": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Lukas": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Nadia": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Tomas": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Ayesha": {
+          "block": "07:00"
+        },
+        "Daniel": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Lukas": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Nadia": {
+          "block": "15:00"
+        }
+      }
+    ]
+  },
+  "B2-017": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Priya": {
+          "block": "07:00"
+        },
+        "Nadia": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Samuel": {
+          "block": "13:00"
+        },
+        "Ingrid": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "15:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Priya": {
+          "block": "07:00"
+        },
+        "Nadia": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Samuel": {
+          "block": "11:00"
+        },
+        "Ingrid": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "15:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Priya": {
+          "block": "07:00"
+        },
+        "Nadia": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Samuel": {
+          "block": "13:00"
+        },
+        "Ingrid": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "11:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Priya": {
+          "block": "07:00"
+        },
+        "Nadia": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Samuel": {
+          "block": "11:00"
+        },
+        "Ingrid": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "13:00",
+          "station": "packing"
+        }
+      }
+    ]
+  },
+  "B2-018": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Daniel": {
+          "block": "09:00"
+        },
+        "Nadia": {
+          "block": "13:00"
+        },
+        "Tomas": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Ayesha": {
+          "block": "11:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Daniel": {
+          "block": "09:00"
+        },
+        "Nadia": {
+          "block": "11:00"
+        },
+        "Tomas": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Ayesha": {
+          "block": "13:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Daniel": {
+          "block": "09:00"
+        },
+        "Nadia": {
+          "block": "11:00"
+        },
+        "Tomas": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Ayesha": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Daniel": {
+          "block": "09:00"
+        },
+        "Nadia": {
+          "block": "13:00"
+        },
+        "Tomas": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Ayesha": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      }
+    ]
+  },
+  "B2-019": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Daniel": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Samuel": {
+          "block": "09:00"
+        },
+        "Nadia": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "13:00"
+        },
+        "Rohan": {
+          "block": "15:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Daniel": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Samuel": {
+          "block": "09:00"
+        },
+        "Nadia": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "15:00"
+        },
+        "Rohan": {
+          "block": "13:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Daniel": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Samuel": {
+          "block": "09:00"
+        },
+        "Nadia": {
+          "block": "13:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "11:00"
+        },
+        "Rohan": {
+          "block": "15:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Daniel": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Samuel": {
+          "block": "09:00"
+        },
+        "Nadia": {
+          "block": "13:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "15:00"
+        },
+        "Rohan": {
+          "block": "11:00",
+          "station": "intake"
+        }
+      }
+    ]
+  },
+  "B2-020": {
+    "case": "inconsistent",
+    "conflicts": [
+      "Rohan is on later than whoever has intake."
+    ]
+  },
+  "B2-021": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Lukas": {
+          "block": "07:00"
+        },
+        "Daniel": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Ingrid": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Ayesha": {
+          "block": "13:00"
+        },
+        "Samuel": {
+          "block": "15:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Lukas": {
+          "block": "07:00"
+        },
+        "Daniel": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Ingrid": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Ayesha": {
+          "block": "13:00"
+        },
+        "Samuel": {
+          "block": "15:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Lukas": {
+          "block": "07:00"
+        },
+        "Daniel": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Ingrid": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Ayesha": {
+          "block": "15:00"
+        },
+        "Samuel": {
+          "block": "13:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Lukas": {
+          "block": "07:00"
+        },
+        "Daniel": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Ingrid": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Ayesha": {
+          "block": "15:00"
+        },
+        "Samuel": {
+          "block": "13:00",
+          "station": "intake"
+        }
+      }
+    ]
+  },
+  "B2-022": {
+    "case": "inconsistent",
+    "conflicts": [
+      "Intake is covered before Samuel comes on."
+    ]
+  },
+  "B2-023": {
+    "case": "inconsistent",
+    "conflicts": [
+      "As far as I know, the calibration station is covered earlier in the day than Daniel's block."
+    ]
+  },
+  "B2-024": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Ingrid": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Meera": {
+          "block": "11:00"
+        },
+        "Priya": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Rohan": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Ingrid": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Meera": {
+          "block": "11:00"
+        },
+        "Priya": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Rohan": {
+          "block": "13:00"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Ingrid": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Meera": {
+          "block": "13:00"
+        },
+        "Priya": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Rohan": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Ingrid": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Meera": {
+          "block": "13:00"
+        },
+        "Priya": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Rohan": {
+          "block": "11:00"
+        }
+      }
+    ]
+  },
+  "B2-025": {
+    "case": "inconsistent",
+    "conflicts": [
+      "The packing station is covered earlier in the day than Daniel's block."
+    ]
+  },
+  "B2-026": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Samuel": {
+          "block": "07:00"
+        },
+        "Ayesha": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Tomas": {
+          "block": "13:00",
+          "station": "calibration"
+        },
+        "Nadia": {
+          "block": "15:00"
+        },
+        "Meera": {
+          "block": "11:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Samuel": {
+          "block": "07:00"
+        },
+        "Ayesha": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Tomas": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Nadia": {
+          "block": "15:00"
+        },
+        "Meera": {
+          "block": "13:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Samuel": {
+          "block": "07:00"
+        },
+        "Ayesha": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Tomas": {
+          "block": "13:00",
+          "station": "calibration"
+        },
+        "Nadia": {
+          "block": "11:00"
+        },
+        "Meera": {
+          "block": "15:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Samuel": {
+          "block": "07:00"
+        },
+        "Ayesha": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Tomas": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Nadia": {
+          "block": "13:00"
+        },
+        "Meera": {
+          "block": "15:00",
+          "station": "intake"
+        }
+      }
+    ]
+  },
+  "B2-027": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Ayesha": {
+          "block": "07:00"
+        },
+        "Meera": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Tomas": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Nadia": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Priya": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Ayesha": {
+          "block": "07:00"
+        },
+        "Meera": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Tomas": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Priya": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Ayesha": {
+          "block": "07:00"
+        },
+        "Meera": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Tomas": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Nadia": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Priya": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Ayesha": {
+          "block": "07:00"
+        },
+        "Meera": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Tomas": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Priya": {
+          "block": "15:00"
+        }
+      }
+    ]
+  },
+  "B2-028": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Daniel": {
+          "block": "07:00"
+        },
+        "Priya": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "13:00"
+        },
+        "Tomas": {
+          "block": "15:00",
+          "station": "calibration"
+        },
+        "Lukas": {
+          "block": "11:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Daniel": {
+          "block": "07:00"
+        },
+        "Priya": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "15:00"
+        },
+        "Tomas": {
+          "block": "13:00",
+          "station": "calibration"
+        },
+        "Lukas": {
+          "block": "11:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Daniel": {
+          "block": "07:00"
+        },
+        "Priya": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "11:00"
+        },
+        "Tomas": {
+          "block": "15:00",
+          "station": "calibration"
+        },
+        "Lukas": {
+          "block": "13:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Daniel": {
+          "block": "07:00"
+        },
+        "Priya": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "15:00"
+        },
+        "Tomas": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Lukas": {
+          "block": "13:00",
+          "station": "packing"
+        }
+      }
+    ]
+  },
+  "B2-029": {
+    "case": "inconsistent",
+    "conflicts": [
+      "Nadia is on later than whoever has packing."
+    ]
+  },
+  "B2-030": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Rohan": {
+          "block": "07:00"
+        },
+        "Ingrid": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Lukas": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Samuel": {
+          "block": "15:00"
+        },
+        "Nadia": {
+          "block": "13:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Rohan": {
+          "block": "07:00"
+        },
+        "Ingrid": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Lukas": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Samuel": {
+          "block": "13:00"
+        },
+        "Nadia": {
+          "block": "15:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Rohan": {
+          "block": "07:00"
+        },
+        "Ingrid": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Lukas": {
+          "block": "13:00",
+          "station": "calibration"
+        },
+        "Samuel": {
+          "block": "15:00"
+        },
+        "Nadia": {
+          "block": "11:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Rohan": {
+          "block": "07:00"
+        },
+        "Ingrid": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Lukas": {
+          "block": "13:00",
+          "station": "calibration"
+        },
+        "Samuel": {
+          "block": "11:00"
+        },
+        "Nadia": {
+          "block": "15:00",
+          "station": "packing"
+        }
+      }
+    ]
+  },
+  "B2-031": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Tomas": {
+          "block": "09:00"
+        },
+        "Rohan": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Ayesha": {
+          "block": "11:00"
+        },
+        "Meera": {
+          "block": "13:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Tomas": {
+          "block": "09:00"
+        },
+        "Rohan": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Ayesha": {
+          "block": "11:00"
+        },
+        "Meera": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Tomas": {
+          "block": "09:00"
+        },
+        "Rohan": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Ayesha": {
+          "block": "13:00"
+        },
+        "Meera": {
+          "block": "11:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Tomas": {
+          "block": "09:00"
+        },
+        "Rohan": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Ayesha": {
+          "block": "13:00"
+        },
+        "Meera": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      }
+    ]
+  },
+  "B2-032": {
+    "case": "inconsistent",
+    "conflicts": [
+      "The packing station is covered earlier in the day than Ingrid's block.",
+      "Intake is covered before Ingrid comes on."
+    ]
+  },
+  "B2-033": {
+    "case": "inconsistent",
+    "conflicts": [
+      "Speaking from memory, calibration is covered before Tomas comes on."
+    ]
+  },
+  "B2-034": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Tomas": {
+          "block": "07:00"
+        },
+        "Meera": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Ingrid": {
+          "block": "11:00"
+        },
+        "Rohan": {
+          "block": "13:00",
+          "station": "calibration"
+        },
+        "Samuel": {
+          "block": "15:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Tomas": {
+          "block": "07:00"
+        },
+        "Meera": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Ingrid": {
+          "block": "11:00"
+        },
+        "Rohan": {
+          "block": "15:00",
+          "station": "calibration"
+        },
+        "Samuel": {
+          "block": "13:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Tomas": {
+          "block": "07:00"
+        },
+        "Meera": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Ingrid": {
+          "block": "13:00"
+        },
+        "Rohan": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Samuel": {
+          "block": "15:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Tomas": {
+          "block": "07:00"
+        },
+        "Meera": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Ingrid": {
+          "block": "13:00"
+        },
+        "Rohan": {
+          "block": "15:00",
+          "station": "calibration"
+        },
+        "Samuel": {
+          "block": "11:00",
+          "station": "intake"
+        }
+      }
+    ]
+  },
+  "B2-035": {
+    "case": "inconsistent",
+    "conflicts": [
+      "Speaking from memory, Priya is on later than whoever has calibration.",
+      "You can rule Priya out for calibration."
+    ]
+  },
+  "B2-036": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Meera": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Rohan": {
+          "block": "13:00"
+        },
+        "Daniel": {
+          "block": "11:00"
+        },
+        "Samuel": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Meera": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Rohan": {
+          "block": "11:00"
+        },
+        "Daniel": {
+          "block": "13:00"
+        },
+        "Samuel": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Meera": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Rohan": {
+          "block": "11:00"
+        },
+        "Daniel": {
+          "block": "15:00"
+        },
+        "Samuel": {
+          "block": "13:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Meera": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Rohan": {
+          "block": "13:00"
+        },
+        "Daniel": {
+          "block": "15:00"
+        },
+        "Samuel": {
+          "block": "11:00",
+          "station": "calibration"
+        }
+      }
+    ]
+  },
+  "B2-037": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Lukas": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Nadia": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "13:00"
+        },
+        "Ingrid": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Lukas": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Nadia": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Priya": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Meera": {
+          "block": "13:00"
+        },
+        "Ingrid": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Lukas": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Nadia": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "13:00"
+        },
+        "Ingrid": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Lukas": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Nadia": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Priya": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Meera": {
+          "block": "13:00"
+        },
+        "Ingrid": {
+          "block": "15:00"
+        }
+      }
+    ]
+  },
+  "B2-038": {
+    "case": "inconsistent",
+    "conflicts": [
+      "The intake station is covered earlier in the day than Ingrid's block."
+    ]
+  },
+  "B2-039": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Ingrid": {
+          "block": "07:00"
+        },
+        "Nadia": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "11:00"
+        },
+        "Ayesha": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Tomas": {
+          "block": "15:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Ingrid": {
+          "block": "07:00"
+        },
+        "Nadia": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Priya": {
+          "block": "11:00"
+        },
+        "Ayesha": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Tomas": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Ingrid": {
+          "block": "07:00"
+        },
+        "Nadia": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "11:00"
+        },
+        "Ayesha": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Tomas": {
+          "block": "13:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Ingrid": {
+          "block": "07:00"
+        },
+        "Nadia": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Priya": {
+          "block": "11:00"
+        },
+        "Ayesha": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Tomas": {
+          "block": "13:00",
+          "station": "calibration"
+        }
+      }
+    ]
+  },
+  "B2-040": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Nadia": {
+          "block": "07:00"
+        },
+        "Ayesha": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Samuel": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Daniel": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00"
+        },
+        "Ayesha": {
+          "block": "09:00",
+          "station": "calibration"
+        },
+        "Samuel": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Daniel": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Meera": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00"
+        },
+        "Ayesha": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Samuel": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Daniel": {
+          "block": "13:00",
+          "station": "calibration"
+        },
+        "Meera": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00"
+        },
+        "Ayesha": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Samuel": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Daniel": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "15:00"
+        }
+      }
+    ]
+  },
+  "B2-041": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "09:00"
+        },
+        "Lukas": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Samuel": {
+          "block": "13:00"
+        },
+        "Ingrid": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "09:00"
+        },
+        "Lukas": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Samuel": {
+          "block": "11:00"
+        },
+        "Ingrid": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Meera": {
+          "block": "09:00"
+        },
+        "Lukas": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Samuel": {
+          "block": "13:00"
+        },
+        "Ingrid": {
+          "block": "15:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Meera": {
+          "block": "09:00"
+        },
+        "Lukas": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Samuel": {
+          "block": "11:00"
+        },
+        "Ingrid": {
+          "block": "15:00",
+          "station": "intake"
+        }
+      }
+    ]
+  },
+  "B2-042": {
+    "case": "inconsistent",
+    "conflicts": [
+      "The calibration station is covered earlier in the day than Ingrid's block.",
+      "My recollection is that the calibration station is covered earlier in the day than Tomas's block."
+    ]
+  },
+  "B2-043": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Ingrid": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Ayesha": {
+          "block": "09:00"
+        },
+        "Meera": {
+          "block": "11:00"
+        },
+        "Rohan": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Daniel": {
+          "block": "13:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Ingrid": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Ayesha": {
+          "block": "09:00"
+        },
+        "Meera": {
+          "block": "11:00"
+        },
+        "Rohan": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Daniel": {
+          "block": "13:00",
+          "station": "intake"
+        }
+      },
+      {
+        "Ingrid": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Ayesha": {
+          "block": "09:00"
+        },
+        "Meera": {
+          "block": "11:00"
+        },
+        "Rohan": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Daniel": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Ingrid": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Ayesha": {
+          "block": "09:00"
+        },
+        "Meera": {
+          "block": "11:00"
+        },
+        "Rohan": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Daniel": {
+          "block": "15:00",
+          "station": "intake"
+        }
+      }
+    ]
+  },
+  "B2-044": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Priya": {
+          "block": "09:00"
+        },
+        "Daniel": {
+          "block": "07:00"
+        },
+        "Ayesha": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Rohan": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Ingrid": {
+          "block": "13:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Priya": {
+          "block": "09:00"
+        },
+        "Daniel": {
+          "block": "07:00"
+        },
+        "Ayesha": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Rohan": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Ingrid": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Priya": {
+          "block": "09:00"
+        },
+        "Daniel": {
+          "block": "07:00"
+        },
+        "Ayesha": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Rohan": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Ingrid": {
+          "block": "11:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Priya": {
+          "block": "09:00"
+        },
+        "Daniel": {
+          "block": "07:00"
+        },
+        "Ayesha": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Rohan": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Ingrid": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      }
+    ]
+  },
+  "B2-045": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Meera": {
+          "block": "09:00"
+        },
+        "Samuel": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Ayesha": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "11:00"
+        },
+        "Lukas": {
+          "block": "13:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Meera": {
+          "block": "07:00"
+        },
+        "Samuel": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Ayesha": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "13:00"
+        },
+        "Lukas": {
+          "block": "11:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Meera": {
+          "block": "07:00"
+        },
+        "Samuel": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Ayesha": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "11:00"
+        },
+        "Lukas": {
+          "block": "13:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Meera": {
+          "block": "07:00"
+        },
+        "Samuel": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Ayesha": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "11:00"
+        },
+        "Lukas": {
+          "block": "09:00",
+          "station": "calibration"
+        }
+      }
+    ]
+  },
+  "B2-046": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Lukas": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Samuel": {
+          "block": "11:00"
+        },
+        "Ayesha": {
+          "block": "13:00",
+          "station": "calibration"
+        },
+        "Daniel": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Lukas": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Samuel": {
+          "block": "11:00"
+        },
+        "Ayesha": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Daniel": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Lukas": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Samuel": {
+          "block": "11:00"
+        },
+        "Ayesha": {
+          "block": "15:00",
+          "station": "calibration"
+        },
+        "Daniel": {
+          "block": "13:00"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Lukas": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Samuel": {
+          "block": "11:00"
+        },
+        "Ayesha": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Daniel": {
+          "block": "13:00"
+        }
+      }
+    ]
+  },
+  "B2-047": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Meera": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Lukas": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "13:00"
+        },
+        "Tomas": {
+          "block": "15:00"
+        },
+        "Priya": {
+          "block": "11:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Meera": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Lukas": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "13:00"
+        },
+        "Tomas": {
+          "block": "11:00"
+        },
+        "Priya": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Meera": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Lukas": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "13:00"
+        },
+        "Tomas": {
+          "block": "15:00"
+        },
+        "Priya": {
+          "block": "09:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Meera": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Lukas": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "13:00"
+        },
+        "Tomas": {
+          "block": "09:00"
+        },
+        "Priya": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      }
+    ]
+  },
+  "B2-048": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Samuel": {
+          "block": "09:00"
+        },
+        "Ayesha": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Rohan": {
+          "block": "13:00"
+        },
+        "Lukas": {
+          "block": "15:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Samuel": {
+          "block": "09:00"
+        },
+        "Ayesha": {
+          "block": "13:00",
+          "station": "calibration"
+        },
+        "Rohan": {
+          "block": "15:00"
+        },
+        "Lukas": {
+          "block": "11:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Samuel": {
+          "block": "09:00"
+        },
+        "Ayesha": {
+          "block": "13:00",
+          "station": "calibration"
+        },
+        "Rohan": {
+          "block": "11:00"
+        },
+        "Lukas": {
+          "block": "15:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Priya": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Samuel": {
+          "block": "09:00"
+        },
+        "Ayesha": {
+          "block": "15:00",
+          "station": "calibration"
+        },
+        "Rohan": {
+          "block": "13:00"
+        },
+        "Lukas": {
+          "block": "11:00",
+          "station": "packing"
+        }
+      }
+    ]
+  },
+  "B2-049": {
+    "case": "inconsistent",
+    "conflicts": [
+      "You can rule Samuel out for packing.",
+      "Worth restating, since it came up twice in handover: Packing is covered before Samuel comes on."
+    ]
+  },
+  "B2-050": {
+    "case": "inconsistent",
+    "conflicts": [
+      "Going off the roster, Meera has intake this week.",
+      "Going off the roster, the intake station is covered earlier in the day than Ingrid's block."
+    ]
+  },
+  "B2-051": {
+    "case": "inconsistent",
+    "conflicts": [
+      "Lukas is on later than whoever has calibration."
+    ]
+  },
+  "B2-052": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Ingrid": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "09:00"
+        },
+        "Daniel": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Rohan": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Meera": {
+          "block": "13:00"
+        }
+      },
+      {
+        "Ingrid": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "09:00"
+        },
+        "Daniel": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Rohan": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Meera": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Ingrid": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "09:00"
+        },
+        "Daniel": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Rohan": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "13:00"
+        }
+      },
+      {
+        "Ingrid": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Priya": {
+          "block": "09:00"
+        },
+        "Daniel": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Rohan": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "15:00"
+        }
+      }
+    ]
+  },
+  "B2-053": {
+    "case": "inconsistent",
+    "conflicts": [
+      "It bears repeating: The intake station is covered earlier in the day than Tomas's block."
+    ]
+  },
+  "B2-054": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Ingrid": {
+          "block": "09:00"
+        },
+        "Ayesha": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Tomas": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Samuel": {
+          "block": "13:00"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "intake"
+        },
+        "Ingrid": {
+          "block": "09:00"
+        },
+        "Ayesha": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Tomas": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Samuel": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Ingrid": {
+          "block": "09:00"
+        },
+        "Ayesha": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Tomas": {
+          "block": "15:00",
+          "station": "packing"
+        },
+        "Samuel": {
+          "block": "13:00"
+        }
+      },
+      {
+        "Nadia": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Ingrid": {
+          "block": "09:00"
+        },
+        "Ayesha": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Tomas": {
+          "block": "13:00",
+          "station": "packing"
+        },
+        "Samuel": {
+          "block": "15:00"
+        }
+      }
+    ]
+  },
+  "B2-055": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Ayesha": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Samuel": {
+          "block": "09:00"
+        },
+        "Lukas": {
+          "block": "11:00"
+        },
+        "Ingrid": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "15:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Ayesha": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Samuel": {
+          "block": "09:00"
+        },
+        "Lukas": {
+          "block": "11:00"
+        },
+        "Ingrid": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "13:00",
+          "station": "packing"
+        }
+      },
+      {
+        "Ayesha": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Samuel": {
+          "block": "09:00"
+        },
+        "Lukas": {
+          "block": "11:00"
+        },
+        "Ingrid": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "15:00",
+          "station": "calibration"
+        }
+      },
+      {
+        "Ayesha": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Samuel": {
+          "block": "09:00"
+        },
+        "Lukas": {
+          "block": "11:00"
+        },
+        "Ingrid": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Meera": {
+          "block": "13:00",
+          "station": "calibration"
+        }
+      }
+    ]
+  },
+  "B2-056": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Ayesha": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Nadia": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Daniel": {
+          "block": "11:00"
+        },
+        "Tomas": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Priya": {
+          "block": "13:00"
+        }
+      },
+      {
+        "Ayesha": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Nadia": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Daniel": {
+          "block": "11:00"
+        },
+        "Tomas": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Priya": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Ayesha": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Nadia": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Daniel": {
+          "block": "13:00"
+        },
+        "Tomas": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Priya": {
+          "block": "11:00"
+        }
+      },
+      {
+        "Ayesha": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Nadia": {
+          "block": "09:00",
+          "station": "packing"
+        },
+        "Daniel": {
+          "block": "13:00"
+        },
+        "Tomas": {
+          "block": "11:00",
+          "station": "intake"
+        },
+        "Priya": {
+          "block": "15:00"
+        }
+      }
+    ]
+  },
+  "B2-057": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Rohan": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Priya": {
+          "block": "09:00"
+        },
+        "Ayesha": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Ingrid": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Lukas": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Rohan": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Priya": {
+          "block": "09:00"
+        },
+        "Ayesha": {
+          "block": "13:00",
+          "station": "intake"
+        },
+        "Ingrid": {
+          "block": "15:00",
+          "station": "calibration"
+        },
+        "Lukas": {
+          "block": "11:00"
+        }
+      },
+      {
+        "Rohan": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Priya": {
+          "block": "09:00"
+        },
+        "Ayesha": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Ingrid": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Lukas": {
+          "block": "13:00"
+        }
+      },
+      {
+        "Rohan": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Priya": {
+          "block": "09:00"
+        },
+        "Ayesha": {
+          "block": "15:00",
+          "station": "intake"
+        },
+        "Ingrid": {
+          "block": "13:00",
+          "station": "calibration"
+        },
+        "Lukas": {
+          "block": "11:00"
+        }
+      }
+    ]
+  },
+  "B2-058": {
+    "case": "ambiguous",
+    "assignments": [
+      {
+        "Ayesha": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Ingrid": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Rohan": {
+          "block": "15:00"
+        },
+        "Meera": {
+          "block": "13:00"
+        }
+      },
+      {
+        "Ayesha": {
+          "block": "07:00",
+          "station": "calibration"
+        },
+        "Ingrid": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "11:00",
+          "station": "packing"
+        },
+        "Rohan": {
+          "block": "13:00"
+        },
+        "Meera": {
+          "block": "15:00"
+        }
+      },
+      {
+        "Ayesha": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Ingrid": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Rohan": {
+          "block": "15:00"
+        },
+        "Meera": {
+          "block": "13:00"
+        }
+      },
+      {
+        "Ayesha": {
+          "block": "07:00",
+          "station": "packing"
+        },
+        "Ingrid": {
+          "block": "09:00",
+          "station": "intake"
+        },
+        "Nadia": {
+          "block": "11:00",
+          "station": "calibration"
+        },
+        "Rohan": {
+          "block": "13:00"
+        },
+        "Meera": {
+          "block": "15:00"
+        }
+      }
+    ]
+  },
+  "B2-059": {
+    "case": "inconsistent",
+    "conflicts": [
+      "The calibration station is covered earlier in the day than Ingrid's block."
+    ]
+  }
+}
