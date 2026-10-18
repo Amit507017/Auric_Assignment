@@ -1,0 +1,2 @@
+# No third-party dependencies. Stdlib only (urllib, json, re, argparse,
+# itertools). Requires Python 3.9+.
